@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.nav__menu>li>a {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__img {
+    width: 1110px;
+    height: 450px;
+    top: 339px;
+    left: 405px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 50px;
+}
+
+.rectangle__content {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.rectangle-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 730px;
+    height: 500px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F0F0F0;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-1 {
+    opacity: 0px;
+    color: #4581B7;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+
+.text-1 {
+    width: 595px;
+    height: 351px;
+    top: 917px;
+    left: 445px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #808080;
+    left: 445px;
+}
+
+.rectangle-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 500px;
+    top: 819px;
+    left: 1165px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F0F0F0;
+    justify-content: center;
+
+}
+
+.title-2 {
+    width: 150px;
+    height: 23px;
+    gap: 0px;
+    opacity: 0px;
+    color: #4581B7;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text-2 {
+    width: 286px;
+    height: 243px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #808080;
+    text-align: left;
+}
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    height: 150px;
+    background-color: #F0F0F0;
+    padding: 30px;
+}
